@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume - Arya Paliwal</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html">Arya Paliwal</a>
+      <div class="links">
+        <a href="projects.html">Projects</a>
+        <a href="resume.html" class="active">Resume</a>
+        <a href="https://github.com/AryahP" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/aryah-paliwal/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="mailto:ap9029@princeton.edu">Email</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Resume</h1>
+      <p class="subtitle">
+        My education, experience, and technical skills
+      </p>
+      <div class="cta">
+        <a class="button" href="assets/pdf/Arya_Paliwal_Resume.pdf" download>Download PDF</a>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2 class="resume-heading">🎓 Education</h2>
+      <div class="resume-item">
+        <h3>Princeton University</h3>
+        <p class="meta">Bachelor of Science in Electrical and Computer Engineering</p>
+        <ul>
+          <li>Relevant Coursework: Systems Programming (COS 217), Digital Logic (ECE 206), Computer Architecture</li>
+          <li>Focus: Embedded Systems, Hardware-Software Integration, Low-Level Programming</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2 class="resume-heading">💼 Experience</h2>
+      <div class="resume-item">
+        <h3>PAVE Robotics</h3>
+        <p class="meta">Embedded Systems Engineer</p>
+        <ul>
+          <li>Developed sensor integration and data processing for Linux-based robotics platform</li>
+          <li>Implemented low-level driver interfaces and real-time data pipelines in C/C++</li>
+          <li>Collaborated on system-level testing and debugging of hardware-software interactions</li>
+          <li>Optimized performance-critical code paths for embedded ARM processors</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2 class="resume-heading">💻 Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <ul>
+            <li>C/C++ (Advanced)</li>
+            <li>Python (Proficient)</li>
+            <li>ARM64 Assembly</li>
+            <li>Verilog/SystemVerilog</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Embedded Systems</h3>
+          <ul>
+            <li>Firmware Development</li>
+            <li>Real-Time OS (RTOS)</li>
+            <li>Embedded Linux</li>
+            <li>Device Drivers</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Hardware</h3>
+          <ul>
+            <li>Digital Design (Verilog)</li>
+            <li>FPGA Development</li>
+            <li>ARM Architecture</li>
+            <li>Circuit Debugging</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Tools & Platforms</h3>
+          <ul>
+            <li>Git/GitHub</li>
+            <li>GDB Debugger</li>
+            <li>Oscilloscopes/Logic Analyzers</li>
+            <li>CI/CD Pipelines</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2 class="resume-heading">🚀 Projects</h2>
+      <div class="resume-item">
+        <h3>ARM64 Assembly Programs</h3>
+        <ul>
+          <li>Implemented memory management utilities and system call wrappers in ARM64 assembly</li>
+          <li>Optimized performance-critical algorithms for embedded systems</li>
+        </ul>
+      </div>
+
+      <div class="resume-item">
+        <h3>Digital System Design</h3>
+        <ul>
+          <li>Designed and synthesized digital circuits including ALUs and state machines in Verilog</li>
+          <li>Tested and verified designs on FPGA hardware</li>
+        </ul>
+      </div>
+
+      <div class="resume-item">
+        <h3>Systems Programming Projects</h3>
+        <ul>
+          <li>Built custom Unix shell with job control and signal handling</li>
+          <li>Implemented dynamic memory allocator with custom heap management</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2 class="resume-heading">📫 Contact</h2>
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:ap9029@princeton.edu">ap9029@princeton.edu</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aryah-paliwal/" target="_blank">linkedin.com/in/aryah-paliwal</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/AryahP" target="_blank">github.com/AryahP</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <span>© <span id="year"></span> Arya Paliwal</span>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
