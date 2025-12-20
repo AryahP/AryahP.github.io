@@ -29,24 +29,15 @@
     </section>
 
     <section class="projects-grid">
-      <div class="project-card">
-        <h3>🤖 PAVE Robotics Integration</h3>
-        <p class="meta">Embedded Linux • Sensors • C++</p>
-        <p>
-          Developed sensor integration and data processing pipelines for a Linux-based robotics stack. 
-          Implemented real-time sensor fusion algorithms and low-level driver interfaces.
-        </p>
-        <div class="links-row">
-          <a href="https://github.com/AryahP" target="_blank">View Code →</a>
-        </div>
-      </div>
 
       <div class="project-card">
-        <h3>💾 ARM64 Assembly Projects</h3>
+        <h3> PUNC (Princeton University Computer) MiniProcessor </h3>
         <p class="meta">Assembly • ARM Architecture • Low-level Programming</p>
         <p>
-          Built various low-level programs in ARM64 assembly including memory management utilities, 
-          system call wrappers, and performance-critical algorithms for embedded systems.
+          Built 16-bit processor using instruction set from LC3ISA in Verilog
+          Used knowledge on RTL design to design DataPath and Controller, implement in Verilog
+          Used testbenches and waveform to debug 
+          Synthesized and tested designs on FPGA hardware
         </p>
         <div class="links-row">
           <a href="https://github.com/AryahP" target="_blank">View Code →</a>
@@ -54,50 +45,29 @@
       </div>
 
       <div class="project-card">
-        <h3>⚡ Digital System Design (Verilog)</h3>
+        <h3> Simon </h3>
         <p class="meta">Verilog • FPGA • Hardware Design</p>
         <p>
-          Designed and implemented digital circuits including ALUs, state machines, and memory 
-          controllers. Synthesized and tested designs on FPGA hardware.
+         Implemented a finite-state controller managing four gameplay modes (input, playback, repeat, done) with synchronous reset and rising-edge clocked transitions
+         Designed a datapath with register storage and a provided 64×4-bit memory module to store and replay player-generated pattern sequences
+         Wrote modular Verilog testbenches to validate datapath functionality, FSM transitions, and full-system gameplay scenarios before integration
         </p>
         <div class="links-row">
           <a href="https://github.com/AryahP" target="_blank">View Code →</a>
         </div>
       </div>
 
-      <div class="project-card">
-        <h3>🔧 Systems Programming (COS 217)</h3>
-        <p class="meta">C • Systems Programming • Unix</p>
-        <p>
-          Implemented core system utilities including custom shell, dynamic memory allocator, 
-          and file system utilities. Focused on performance optimization and debugging.
-        </p>
-        <div class="links-row">
-          <a href="https://github.com/AryahP" target="_blank">View Code →</a>
-        </div>
-      </div>
 
       <div class="project-card">
-        <h3>🔬 Embedded Testing Framework</h3>
-        <p class="meta">C/C++ • Testing • CI/CD</p>
+        <h3> GreenTrip (HackPrinceton '25)</h3>
+        <p class="meta"> Next.js, FastAPI, Dedalus/OpenAI</p>
         <p>
-          Created a lightweight testing framework for embedded C applications with minimal overhead. 
-          Includes assertion macros, test fixtures, and automated reporting.
+          Developed a full-stack AI travel planner integrating real-time travel, weather, and emissions data to generate sustainable itineraries
+          Used Dedalus (MCP-based) to connect LLM reasoning with external APIs via structured tool calls
+          Built frontend in Next.js/TypeScript and backend services in FastAPI, focusing on clean data flow and reproducible outputs
         </p>
         <div class="links-row">
-          <a href="https://github.com/AryahP" target="_blank">View Code →</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <h3>📡 Real-Time Data Acquisition</h3>
-        <p class="meta">Python • Embedded Linux • Hardware Interface</p>
-        <p>
-          Developed a real-time data acquisition system for sensor data collection and analysis. 
-          Implemented efficient buffering and streaming to handle high-throughput data.
-        </p>
-        <div class="links-row">
-          <a href="https://github.com/AryahP" target="_blank">View Code →</a>
+          <a href="https://github.com/andygcui/green-trip.git" target="_blank">View Code →</a>
         </div>
       </div>
     </section>
