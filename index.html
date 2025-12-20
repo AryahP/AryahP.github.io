@@ -1,1 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arya Paliwal</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html">Arya Paliwal</a>
+      <div class="links">
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="https://github.com/AryahP" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/aryah-paliwal/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="mailto:ap9029@princeton.edu">Email</a>
+      </div>
+    </nav>
+  </header>
 
+  <main class="container">
+    <section class="hero">
+      <h1>Embedded Systems & Hardware–Software Integration</h1>
+      <p class="subtitle">
+        ECE @ Princeton. I build low-level software and digital systems:
+        C/C++, ARM64 assembly, Verilog, embedded/Linux debugging, and system-level testing.
+      </p>
+
+      <div class="cta">
+        <a class="button" href="projects.html">View Projects</a>
+        <a class="button secondary" href="assets/pdf/Arya_Paliwal_Resume.pdf">Download Resume</a>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>What I do</h2>
+        <ul>
+          <li>Firmware / embedded-oriented programming (C/C++/Python)</li>
+          <li>Verification mindset: tests, debug, integration</li>
+          <li>Computer architecture + digital design (Verilog)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Currently</h2>
+        <ul>
+          <li>PAVE robotics: sensors + integration in a Linux-based stack</li>
+          <li>Systems coursework (COS 217) + digital logic (ECE 206)</li>
+          <li>Applying to embedded/software internships</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <span>© <span id="year"></span> Arya Paliwal</span>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
